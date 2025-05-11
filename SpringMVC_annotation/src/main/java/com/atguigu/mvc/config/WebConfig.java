@@ -1,5 +1,6 @@
-package com.atituigu.com.controller;
+package com.atguigu.mvc.config;
 
+import com.atguigu.mvc.interceptor.TestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -29,7 +30,7 @@ import java.util.Properties;
 //将当前类标识为一个配置类
 @Configuration
 //1、扫描组件
-@ComponentScan("com.atituigu.com.controller")
+@ComponentScan("com.atguigu.mvc.controller")
 //5、mvc注解驱动
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
@@ -55,7 +56,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     //6、文件上传解析器
     @Bean
-    public MultipartResolver multipartResolver() {
+    public MultipartResolver multipartResolver(){
         CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver();
         return commonsMultipartResolver;
     }

@@ -1,4 +1,4 @@
-package com.atituigu.com.controller;
+package com.atguigu.mvc.config;
 
 import org.springframework.context.annotation.Configuration;
 

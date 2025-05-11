@@ -1,11 +1,10 @@
-package com.atituigu.com.controller;
+package com.atguigu.mvc.config;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.Filter;
-
 
 //web工程的初始化类，用来代替web.xml
 public class WebInit extends AbstractAnnotationConfigDispatcherServletInitializer {
