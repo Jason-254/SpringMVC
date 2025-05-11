@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atiguigu.mvc</groupId>
-    <artifactId>SpringMVC_demo06</artifactId>
+    <artifactId>SpringMVC_annotation</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
